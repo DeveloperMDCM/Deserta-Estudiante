@@ -6,14 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <title>Document</title>
+    <title>Aprobacion</title>
 </head>
 
 <body>
     <center>
     <hl>
-        <diw style="text-align:center">
+        <div style="text-align:center">
             <font color='blue'>
                 Predicción usando algoritmos de Clasificación</font>
             </div>
@@ -21,28 +20,27 @@
     <hr>
     </br>
     <h2>
-        <diw style="text-align:center">Ingresa los valores </div>
+        <div style="text-align:center">Ingresa los valores </div>
     </h2>
     </br>
+    
 
-</center>
-<center>
     <div class='container'>
         <div class='row'>
-            <diw class='col-xs-6 col-xs-offset-4'>
+            <div class='col-xs-6 col-xs-offset-4'>
                 <form method="POST" action="/prediccion">
                     <div class='form-group'>
                         <label for="var_1">
                             <p class="font-weight-bold">Semestre</p>
                         </label>
-                        <input type="text" name="var_1">
+                        <input name="var_1" class="form-control form-control-lg" type="text" placeholder="Semestre" >
                     </div>
-
                     <div class='form-group'>
                         <label for="var_2">
                             <p class="font-weight-bold">Promedio</p>
                         </label>
-                        <input type="text" name="var_2">
+                        <input name="var_2" class="form-control form-control-lg" type="text" placeholder="Semestre" >
+
                     </div>
                     <input class='btn btn-success' type='submit' value='Enviar'>
                 </form>
