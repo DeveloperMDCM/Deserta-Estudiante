@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +7,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Aprobacion</title>
 </head>
-
 <body>
     <center>
     <hl>
@@ -23,8 +21,6 @@
         <div style="text-align:center">Ingresa los valores </div>
     </h2>
     </br>
-    
-
     <div class='container '>
         <div class='col-4'>
             <div class='col-xs-6 col-xs-offset-4'>
@@ -33,13 +29,13 @@
                         <label for="var_1">
                             <p class="font-weight-bold">Semestre</p>
                         </label>
-                        <input name="var_1" class="form-control form-control-lg" type="text" placeholder="Semestre" >
+                        <input name="var_1" class="form-control form-control-lg" min="1" max="10" type="number" placeholder="Semestre" >
                     </div>
                     <div class='form-group'>
                         <label for="var_2">
                             <p class="font-weight-bold">Promedio</p>
                         </label>
-                        <input name="var_2" class="form-control form-control-lg" type="text" placeholder="Promedio" >
+                        <input name="var_2" min="0" max="5" class="form-control form-control-lg" type="number" placeholder="Promedio" >
 
                     </div>
                     <input type="submit" class="btn btn-dark position-relative">
