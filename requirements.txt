@@ -1,4 +1,4 @@
-humpy
+numpy
 pandas
 flask
 joblib
